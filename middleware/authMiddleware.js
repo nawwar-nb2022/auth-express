@@ -32,7 +32,7 @@ export const checkUser = (req ,res , next) =>{
             }
         })
     }else{
-        res.locals.userInformation = null
+            res.locals.userInformation = null
             next();
     }
 }
